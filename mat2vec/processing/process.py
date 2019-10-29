@@ -353,3 +353,10 @@ class MaterialsTextProcessor:
         """
         # There is a problem with angstrom sometimes, so ignoring length 1 strings.
         return unidecode.unidecode(txt) if len(txt) > 1 else txt
+
+class NeuroTextProcessor:
+    """
+    Neuroscience Text Processing Tools.
+    """
+
+    # todo
