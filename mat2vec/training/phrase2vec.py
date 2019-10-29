@@ -198,4 +198,4 @@ if __name__ == "__main__":
 
     analogy_file = os.path.join("data", "analogies.txt")
     # Save the accuracies in the tmp folder.
-    compute_epoch_accuracies("tmp", args.model_name, analogy_file)
+    #compute_epoch_accuracies("tmp", args.model_name, analogy_file)
