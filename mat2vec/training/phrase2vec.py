@@ -1,4 +1,6 @@
 from gensim.models import Word2Vec
+from gensim.models import fasttext
+from gensim.models.doc2vec import Doc2Vec
 from gensim.models.word2vec import LineSentence
 from gensim.models.phrases import Phrases, Phraser
 import gensim
